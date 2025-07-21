@@ -8,9 +8,10 @@ Upload you soultion to the Solution Folder in the Repo
 If you have issues or you need clarification, send email to abc@modavcress.com
 
 Category 1
-1. What is Data Privacy and Security, how do you handle it as a developer
-2. How do you protect your client data, what are the measure do you take to ensure data are secured and saved
-3. How do you handle or implement CI/CD pipeline
+1. What is Data Privacy and Security, how do you handle it as a developer?
+2. How do you protect your client data, what are the measure do you take to ensure data are secured and saved?
+3. How do you handle or implement CI/CD pipeline?
+4. How do you do your documentation like your work progress, what you work on or change, other information like setting up or others, and what app or platform do you use for it?
 
 Category 2 
 1. Personal Code Tasks
