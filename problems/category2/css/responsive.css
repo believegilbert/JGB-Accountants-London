@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor the meta tag.
+ */
+@-ms-viewport {
+ width: device-width;
+}
+@viewport {
+ width: device-width;
+}
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1400px) {
+* html body, body {
+	width: 100%;
+	min-width: 100%;
+}
+}
+
+@media (max-width: 1200px) {
+* html body, body {
+/*background: #EBCAE3 !important;*/
+}
+}
+
+@media (max-width: 1140px) {
+* html body, body {
+/*background: #D9E6FF !important;*/
+}
+#home_banner .banner_content h2 {
+	font-size: 40px;
+	line-height: 42px;
+	text-shadow: rgba(0, 0, 0, 0.25) 0 0 20px;
+}
+#home_banner .banner_content h3 {
+	text-shadow: rgba(0, 0, 0, 0.85) 0 0 20px;
+}
+#home_banner::after {
+	height: 90%;
+}
+.contact_form form h3 {
+	font-size: 24px;
+	line-height: 26px;
+	padding: 10px 30px;
+}
+}
+
+@media (max-width: 1024px) {
+* html body, body {
+/*background: lightgray !important;*/
+}
+}
+
+@media (max-width: 999px) {
+* html body, body {
+/*background: gray !important;*/
+}
+#header #logo { width: 30%; }
+#header_right {
+	width: 70%;
+}
+#header_right .header_right_tabs .button { font-size: 14px; }
+#home_banner .banner_content {
+	padding: 50px 15px;
+	width: 100%;
+	text-align: center;
+}
+#home_banner {
+	min-height: auto;
+}
+.contact_form {
+	width: 98%;
+	padding: 20px 0;
+}
+.contact_form form {
+	position: relative;
+	bottom: auto;
+	right: auto;
+}
+.contact_form form h3 br {
+	display: none;
+}
+.section_heading {
+	padding: 0 5% !important;
+}
+#home_section1 [class*="GD-"],  #home_section3 [class*="GD-"],  #home_section8 [class*="GD-"],  #home_section9 [class*="GD-"] {
+	width: 100%;
+}
+#home_section3 .welcome-image img {
+	width: 100%;
+	height: auto;
+}
+#home_section3 .welcome-text {
+	padding: 15px;
+}
+#home_section4 .icon_list ul li {
+	width: 49%;
+}
+#home_section7 .section_heading {
+	padding: 0 0 20px 135px !important;
+	background-position: left 80%;
+}
+#home_section7 .num_box ul li {
+	display: block;
+	width: 100%;
+	padding-left: 50px;
+}
+#home_section7 .num_box ul li .num {
+	float: none;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	margin-right: 15px;
+	margin-left: -50px;
+}
+#home_section8 .tickList div.col{ width: 50%;}
+#home_section6 .image_box ul {
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+#home_section6 .image_box ul li {
+	margin-bottom: 100px;
+}
+#home_section6 .image_box ul li:last-child {
+	margin-bottom: 0;
+}
+#footer_top .callback_form_block {
+	width: 100%;
+	border: 0;
+	border-bottom: #1f2a3d 1px solid;
+}
+#footer_top ul.form_block li {
+	width: 50%;
+}
+}
+
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media (max-width: 768px) {
+* html body, body {
+/*background: lightgreen !important;*/
+}
+#topbar [class*="GD-"] {
+	margin: 0;
+}
+#topbar .GD-20 {
+	display: none;
+}
+#home_section3 .tick_lists ul li {
+	width: 48%;
+}
+}
+
+@media (max-width: 767px) {
+* html body, body {
+/*background: green !important;*/
+}
+#header #logo {
+	width: auto;
+	max-width: none;
+	float: none;
+	text-align: center;
+}
+#header_right {
+	width: 100%;
+	text-align: center;
+}
+#header_right .header_right_tabs .button {
+	font-size: 16px;
+}
+#home_section1 .section_content {
+	padding: 0 20px;
+	text-align: center;
+}
+#home_section1 .section_content .L {
+	padding: 15px;
+	margin-right: 15px;
+	float: none;
+}
+#home_section6 .image_box ul li {
+	width: 99%;
+}
+#home_section7 .section_heading {
+	padding: 0 0 20px 0 !important;
+	background: none;
+}
+#home_section2 .icon_cols ul li {
+	width: 33%;
+	border-top: #dedede 1px solid;
+}
+}
+
+@media (max-width: 643px) {
+* html body, body {
+/*background: #ADA9AA !important;*/
+}
+#home_banner .banner_content h2 {
+	font-size: 30px;
+	line-height: 38px;
+}
+#home_section4 .heading {
+	font-size: 38px;
+	line-height: 40px;
+}
+#home_section4 .icon_list ul li {
+	width: 100%;
+}
+#home_section5 .heading {
+	font-size: 46px;
+	line-height: 52px;
+}
+#home_section5 .happy_customers {
+	font-size: 20px;
+	line-height: 24px;
+}
+#home_section5 .happy_customers strong {
+	font-size: 50px;
+	line-height: 60px;
+}
+#home_section2 .icon_cols ul li {
+	width: 50%;
+}
+#home_section8 .tickList div.col{ width: 99%;}
+#footer_top ul.form_block li {
+	width: 100%;
+	padding-right: 10px;
+}
+#footer .social-icons {
+	text-align: left;
+	padding: 15px;
+}
+}
+
+@media (max-width: 480px) {
+* html body, body {
+/*background: #F2B7EA !important;*/
+}
+}
+
+/* Mobile devices */
+@media (max-width: 359px) {
+* html body, body {
+/*background: blue !important;*/
+}
+.container {
+	width: 94%;
+}
+#topbar .topbar_left {
+	text-align: center;
+}
+#topbar .topbar_left strong {
+	display: block;
+}
+.heading {
+	font-size: 28px;
+	line-height: 34px;
+}
+#home_section4 .heading, #home_section5 .heading {
+	font-size: 34px;
+	line-height: 40px;
+}
+#home_section5 .sub_heading {
+	font-size: 20px;
+	line-height: 30px;
+}
+#home_section5 .happy_customers, #home_section5 .happy_customers strong {
+	display: block;
+	border-radius: 0;
+	text-align: center;
+}
+#home_section7 .num_box ul li {
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px 0 15px 30px;
+}
+}
+
+@media (max-width: 319px) {
+* html body, body {
+/*background: skyblue !important;*/
+}
+}

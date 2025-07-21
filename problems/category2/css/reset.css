@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document: reset.css
+* Resets default browser CSS.
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section { margin: 0; padding: 0; border: 0; outline: 0; word-wrap: break-word; font-size: 100%; }
+/* This helps to make newer HTML5 elements behave like DIVs in older browers */
+article,
+aside,
+details,
+figcaption,
+figure,
+dialog,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section { display: block; }
+* html body { width: 100%; }
+body,
+td { /*font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:22px;
+	color:#565656;
+	font-weight:normal;
+*/	text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+*,
+*:before,
+*:after { box-sizing: border-box; }
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after { content: ''; }
+blockquote,
+q { quotes: "" ""; }
+/* Remove annoying border on linked images. */
+a img { border: none; }
+/* Remember to define your own focus styles! */
+:focus { outline: 0; }
+input { outline: none; overflow: visible; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+form { display: block; }
+p { padding : 0 0 15px 0; margin : 0; }
+img { 
+	outline : none; 
+	border : none; 
+	height: auto; 
+	vertical-align: top;
+	max-width: 100%; 
+	min-width: inherit; 
+	}
+a { color: #0280A9; outline : none; text-decoration : none; transition: all ease 300ms 0s; }
+a:hover { color: #083B5F; }
+hr { padding: 0px; margin: 8px 0 8px 0; height: 1px; border: #ccc 1px solid; overflow: hidden; }
+* html hr { height: 2px; }
+small { font-size: .85em; line-height: 1; }
+acronym { cursor: help; }
