@@ -5,7 +5,7 @@ All your tasks will be in the Problem Folder in the Repo
 Submit all solution on or before Thursday
 Upload you soultion to the Solution Folder in the Repo
 
-If you have issues or you need clarification, send email to 
+If you have issues or you need clarification, send email to abc@modavcress.com
 
 Category 1
 1. What is Data Privacy and Security, how do you handle it as a developer
@@ -24,7 +24,7 @@ First MVP Build
 
 Scenario: Build a minimal viable product for a client who needs a booking app for event appointments.
 
-Tech Stack: Next.js, PostgreSQL
+Tech Stack: Next.js, PostgreSQL, Tailwind CSS (https://ui.shadcn.com/docs/components , https://www.heroui.com/docs/components/accordion)
 
 Expected Output: Responsive frontend, calendar integration, booking logic, and API endpoints
 
